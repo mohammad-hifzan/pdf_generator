@@ -1,7 +1,35 @@
-# GitHub Codespaces ♥️ Ruby on Rails
+#Project Setup and PDF Generation Guide
 
-Welcome to your shiny new Codespace running Rails! We've got everything fired up and running for you to explore Rails.
+##Prerequisites
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+###Ensure you have the following installed on your system:
+Git
+Ruby (compatible with the project)
+Bundler
+Rails
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+###Step 1: Clone the Repository
+First, clone the Git repository to your local machine using the following command:
+git clone <repository_url>
+Replace <repository_url> with the actual URL of the repository.
+Navigate into the project directory:
+cd <repository_name>
+
+###Step 2: Install Dependencies
+Run the following command to install all required gems:
+bundle install
+
+###Step 3: Start the Rails Server
+To start the Rails server, run:
+rails server
+
+###Step 4: Open the Application
+In your web browser, go to:
+http://localhost:3000/
+
+###Step 5: Generate a PDF
+1) On the root page, locate the Generate PDF button.
+
+2) Click on it.
+
+3) The system will generate a PDF version of the page and prompt you to download it.
